@@ -39,7 +39,7 @@ function Navbar() {
         <div id="nav_anim" className="flex gap-24">
           <NavLink
             id="#home_anim"
-            to="/"
+            to="/MY_PORTFOLIO/"
             className={({ isActive }) =>
               isActive
                 ? "text-blue-600 font-bold"

@@ -1,14 +1,15 @@
-import React from 'react'
-import Loaderfunc from './components/Loaderfunc'
-// import Index from './components/Index'
+import React from "react";
+import Loaderfunc from "./components/Loaderfunc";
+import Index from "./components/Index";
+
 function App() {
   return (
     <>
-    <Loaderfunc />
-    {/* <Index /> */}
+      <Router basename="/MY_PORTFOLIO/"/>
+      <Loaderfunc />
+      {/* <Index /> */}
     </>
-  )
+  );
 }
 
-export default App
-
+export default App;
