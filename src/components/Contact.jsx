@@ -58,10 +58,20 @@ const Contact = () => {
           message: "",
         });
       } else {
-        setSuccessMessage("Message sent successfully!"); // Show success message even on failure
+        setSuccessMessage("Message sent successfully!");
+        setFormData({
+          fullname: "",
+          email: "",
+          message: "",
+        }); // Show success message even on failure
       }
     } catch (error) {
-      setSuccessMessage("Message sent successfully!"); // Show success message on error
+      setSuccessMessage("Message sent successfully!");
+      setFormData({
+        fullname: "",
+        email: "",
+        message: "",
+      }); // Show success message on error
     }
   };
 
