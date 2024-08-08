@@ -10,8 +10,10 @@ import { createBrowserRouter,RouterProvider} from 'react-router-dom'
 
 
 
+
 function Index() {
   // Set up the router with routes for each page
+ 
   const router = createBrowserRouter([
     {path:'/MY_PORTFOLIO/',element:<><Navbar /><Home /></>},
     {path:'/MY_PORTFOLIO/skills',element:<><Navbar /><Skills /></>},
