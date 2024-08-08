@@ -50,7 +50,7 @@ function Navbar() {
           </NavLink>
           <NavLink
             id="#skills_anim"
-            to="/skills"
+            to="/MY_PORTFOLIO/skills"
             className={({ isActive }) =>
               isActive
                 ? "text-blue-600 font-bold"
@@ -61,7 +61,7 @@ function Navbar() {
           </NavLink>
           <NavLink
             id="#projects_anim"
-            to="/projects"
+            to="/MY_PORTFOLIO/projects"
             className={({ isActive }) =>
               isActive
                 ? "text-blue-600 font-bold"
@@ -72,7 +72,7 @@ function Navbar() {
           </NavLink>
           <NavLink
             id="#contact_anim"
-            to="/contact"
+            to="/MY_PORTFOLIO/contact"
             className={({ isActive }) =>
               isActive
                 ? "text-blue-600 font-bold"

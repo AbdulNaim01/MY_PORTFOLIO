@@ -14,9 +14,9 @@ function Index() {
   // Set up the router with routes for each page
   const router = createBrowserRouter([
     {path:'/MY_PORTFOLIO/',element:<><Navbar /><Home /></>},
-    {path:'/skills',element:<><Navbar /><Skills /></>},
-    {path:'/projects',element:<><Navbar /><Projects /></>},
-    {path:'/contact',element:<><Navbar /><Contact /></>},
+    {path:'/MY_PORTFOLIO/skills',element:<><Navbar /><Skills /></>},
+    {path:'/MY_PORTFOLIO/projects',element:<><Navbar /><Projects /></>},
+    {path:'/MY_PORTFOLIO/contact',element:<><Navbar /><Contact /></>},
   ]);
 
 

@@ -5,7 +5,7 @@ import Index from "./components/Index";
 function App() {
   return (
     <>
-      <Router basename="/MY_PORTFOLIO/"/>
+      
       <Loaderfunc />
       {/* <Index /> */}
     </>
